@@ -5,7 +5,6 @@
     top: 0;
     left: 0;
     right: 0;
-    transition: background-color 0.5s ease-in-out, backdrop-filter 0.5s ease-in-out;
     z-index: 999;
 }
 
@@ -14,6 +13,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 1.5rem;
+}
+
+.link{
+    display: none;
 }
 
 .hamburger {
@@ -92,6 +95,10 @@
 @media only screen and (max-width: 840px) {
     .navbar {
         background-color: rgb(57, 49, 175);
+    }
+
+    .link{
+        display: block;
     }
 
     .nav-menu {
@@ -407,47 +414,47 @@
 }
 
 /* options */
-.options{
+.options {
     margin-top: 5rem;
     padding: 1rem 10rem;
 }
 
-.options .option-list{
+.options .option-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 3rem;
     text-align: center;
 }
 
-.option-list .card{
+.option-list .card {
     box-shadow: 0 0 25px #E2E8F0;
     padding: 3rem;
 }
 
-.option-list .card h1{
+.option-list .card h1 {
     font-size: 2.4rem;
 }
 
-.option-list .card h2{
+.option-list .card h2 {
     font-size: 1.2rem;
     margin-top: 1rem;
 }
 
-.option-list .card ul li{
+.option-list .card ul li {
     display: flex;
-    align-items: center;   
-    justify-content: center; 
+    align-items: center;
+    justify-content: center;
     gap: 1rem;
     margin-top: 1rem;
 }
 
-.option-list .card .card_list{
+.option-list .card .card_list {
     margin-top: 2.4rem;
 }
 
-.option-list .card button{
+.option-list .card button {
     margin-top: 2rem;
-    padding: 0.5rem 1.4rem;
+    padding: 0.6rem 1.5rem;
     cursor: pointer;
     outline: 0;
     transition: all 0.3s ease-in-out;
@@ -456,26 +463,37 @@
     border-radius: 0.3rem;
 }
 
-.option-list .card button:hover{
-    background-color: #c1c3c5;
+.option-list .card:nth-of-type(2) button {
+    background-color: rgb(93, 87, 177);
+    color: white;
 }
 
-@media(max-width: 1024px){
-    .options{
+.option-list .card:nth-of-type(2) button:hover {
+    background-color: rgb(57, 49, 175);
+    color: white;
+}
+
+.option-list .card button:hover {
+    background-color: rgb(57, 49, 175);
+    color: #fff;
+}
+
+@media(max-width: 1024px) {
+    .options {
         padding: 1rem 2rem;
     }
 
-    .option-list .card h1{
+    .option-list .card h1 {
         font-size: 1.8rem;
     }
 
-    .option-list .card{
+    .option-list .card {
         padding: 2rem;
     }
 }
 
-@media(max-width: 991px){
-    .options .option-list{
+@media(max-width: 991px) {
+    .options .option-list {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 3rem;
@@ -483,8 +501,8 @@
     }
 }
 
-@media(max-width: 676px){
-    .options .option-list{
+@media(max-width: 676px) {
+    .options .option-list {
         display: grid;
         grid-template-columns: 1fr;
         gap: 3rem;
@@ -493,30 +511,31 @@
 }
 
 /* calculator */
-.calculator{
+.calculator {
     background-color: #414040;
     color: white;
     width: 100%;
     text-align: start;
     padding: 1rem 10%;
+    margin-top: 5rem;
 }
 
-.calculator h1{
+.calculator h1 {
     font-size: 3rem;
 }
 
-.calculator .display{
+.calculator .display {
     margin-top: 3rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.calculator .display div h2{
+.calculator .display div h2 {
     font-size: 2rem;
 }
 
-.calculator .display div input{
+.calculator .display div input {
     margin-top: 1rem;
     padding: 0.5rem 1rem;
     border: 0;
@@ -524,15 +543,15 @@
     border-radius: 4px;
 }
 
-.calculator .display div p{
+.calculator .display div p {
     margin-top: 0.6rem;
 }
 
-.calculator .calculate{
+.calculator .calculate {
     margin-top: 2rem;
 }
 
-.calculator .calculate button{
+.calculator .calculate button {
     padding: 0.5rem 1.5rem;
     cursor: pointer;
     border-radius: 8px;
@@ -540,28 +559,37 @@
     outline: 0;
 }
 
-@media(max-width: 912px){
-    .calculator .display{
+@media(max-width: 912px) {
+    .calculator .display {
         flex-direction: column;
         align-items: start;
     }
 
-    .calculator h1{
+    .calculator h1 {
         font-size: 2rem;
     }
 
-    .calculator .display div h2{
+    .calculator .display div h2 {
         font-size: 1.4rem;
         margin-top: 1rem;
     }
 }
 
-@media(max-width: 676px){
-    .calculator h1{
+@media(max-width: 676px) {
+    .calculator h1 {
         font-size: 1.6rem;
     }
 
-    .calculator .display div h2{
+    .calculator .display div h2 {
         font-size: 1.2rem;
     }
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(57, 49, 175);
 }
