@@ -1,11 +1,16 @@
 .header {
-    border-bottom: 1px solid #E2E8F0;
-    background-color: transparent;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 999;
+    transition: background-color 0.5s ease;
+    background: transparent;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.header.sticky {
+    background-color: rgb(240, 240, 240); 
 }
 
 .navbar {
@@ -62,8 +67,15 @@
     transition: all 0.3s ease-in-out;
 }
 
+.link-btn:hover{
+    background: linear-gradient(to right, #223edd, #10199b, rgb(47, 150, 209));
+    color: white;
+}
+
 .sticky {
-    background: linear-gradient(to right, rgb(57, 49, 175), rgb(44, 194, 194));
+    background: linear-gradient(to right, rgb(57, 49, 175), rgb(73, 61, 248), rgb(44, 194, 194));
+    z-index: 999;
+    transition: all 0.3s ease-in-out;
     color: white;
     backdrop-filter: blur(1px);
 }
@@ -464,7 +476,7 @@
 }
 
 .option-list .card:nth-of-type(2) button {
-    background-color: rgb(93, 87, 177);
+    background-color: rgb(70, 64, 146);
     color: white;
 }
 
@@ -507,6 +519,114 @@
         grid-template-columns: 1fr;
         gap: 3rem;
         text-align: center;
+    }
+}
+
+/* my services */
+.my-service{
+    margin-top: 5rem;
+    padding: 1rem 10rem;
+    color: white;
+}
+
+.service-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
+}
+
+.service-card{
+    padding: 4rem;
+    background-color: rgb(57, 49, 175);
+}
+
+.service-card:nth-of-type(2){
+    background-color: rgb(36, 28, 145);
+}
+
+.service-card h2{
+    text-align: right;
+    font-size: 3rem;
+}
+
+.service-card div{
+    text-align: center;
+}
+
+.service-card div i{
+    margin-top: 2rem;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.service-card h1{
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.service-card p{
+    margin-top: 2rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+@media(max-width: 1280px){
+    .my-service{
+        padding: 1rem 2rem;
+    }
+
+    .service-cards{
+        gap: 2rem;
+    }
+
+    .service-card{
+        padding: 2rem;
+    }
+
+    .service-card h2{
+        font-size: 2rem;
+    }
+
+    .service-card div i{
+        font-size: 2rem;
+    }
+
+    .service-card h1{
+        font-size: 1.5rem;
+    }
+
+    .service-card p{
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width: 1024px){
+    .service-card p{
+        font-size: 0.7rem;
+    }
+
+    .service-card h2{
+        font-size: 1.8rem;
+    }
+
+    .service-card div i{
+        font-size: 1.8rem;
+    }
+
+    .service-card h1{
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width: 991px){
+    .service-cards{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width: 540px){
+    .service-cards{
+        grid-template-columns: 1fr;
     }
 }
 
@@ -559,6 +679,16 @@
     outline: 0;
 }
 
+@media(max-width: 1280px){
+    .calculator h1{
+        font-size: 2rem;
+    }
+
+    .calculator .display div h2{
+        font-size: 1.2rem;
+    }
+}
+
 @media(max-width: 912px) {
     .calculator .display {
         flex-direction: column;
@@ -566,7 +696,7 @@
     }
 
     .calculator h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .calculator .display div h2 {
@@ -583,6 +713,12 @@
     .calculator .display div h2 {
         font-size: 1.2rem;
     }
+}
+
+/* projects */
+.project{
+    margin-top: 5rem;
+    padding: 1rem 10rem;
 }
 
 /* scrollbar */

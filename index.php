@@ -131,7 +131,7 @@
                 </div>
             </div>
         </section>
-
+        
         <section class="options">
             <div class="option-list">
                 <div class="card">
@@ -162,7 +162,7 @@
 
                 <div class="card">
                     <h1>995 + ლარი</h1>
-                    <h2>მინი ვებ გვერდი</h2>
+                    <h2>საშუალო ვებ გვერდი</h2>
 
                     <div class="card_list">
                         <ul>
@@ -173,7 +173,7 @@
                                 <p>სამი ენა</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>ლაივ ჩატი</p>
+                                <p>messenger ჩატი</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
                                 <p>ყველა ვერსია</p>
@@ -188,7 +188,7 @@
 
                 <div class="card">
                     <h1>1500 + ლარი</h1>
-                    <h2>მინი ვებ გვერდი</h2>
+                    <h2>ბიზნეს ვებ გვერდი</h2>
 
                     <div class="card_list">
                         <ul>
@@ -199,7 +199,7 @@
                                 <p>სამი ენა</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
-                                <p>messenger ჩატი</p>
+                                <p>Single Page Application</p>
                             </li>
                             <li><i class="fa-solid fa-check"></i>
                                 <p>SEO ოპტიმიზაცია</p>
@@ -210,6 +210,39 @@
                         </ul>
                     </div>
                     <button>შეუკვეთე</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="my-service">
+            <div class="service-cards">
+                <div class="service-card">
+                    <h2>01.</h2>
+                    <hr>
+                    <div>
+                        <i class="fa-solid fa-list"></i>
+                        <h1>IT აუთსორსინგი</h1>
+                    </div>
+                    <p>IT აუთსორსინგი არის ტექნოლოგიური რესურსებისა და სერვისების გარე პარტნიორებისგან მიღების პროცესი, რაც კომპანიას საშუალებას აძლევს, ფოკუსირდეს ძირითად საქმიანობაზე, შეამციროს ხარჯები და გაზარდოს მოქნილობა.</p>
+                </div>
+                <div class="service-card">
+                    <h2>02.</h2>
+                    <hr>
+                    <div>
+                        <i class="fa-solid fa-desktop"></i>
+                        <h1>საიტების დამზადება</h1>
+                    </div>
+                    <p>
+                    საიტების დამზადება გულისხმობს კომპანიის ონლაინ იდენტობის შექმნას და განვითარებას, რაც ხელს უწყობს ბრენდის ცნობადობის გაზრდას, მომხმარებელთა მოზიდვას და კონკურენტულობის გაძლიერებას.</p>
+                </div>
+                <div class="service-card">
+                    <h2>03.</h2>
+                    <hr>
+                    <div>
+                        <i class="fa-solid fa-chart-bar"></i>
+                        <h1>SEO ოპტიმიზაცია</h1>
+                    </div>
+                    <p>SEO ოპტიმიზაცია გულისხმობს ვებგვერდის გაუმჯობესებას საძიებო სისტემებში უკეთესი პოზიციების მოსაპოვებლად, რაც ზრდის მისი ნახვების რაოდენობას და მომხმარებელთა ჩართულობას.</p>
                 </div>
             </div>
         </section>
@@ -240,6 +273,12 @@
                 <div class="result">
                     <h3 id="total-price">0 დოლარი</h3>
                 </div>
+            </div>
+        </section>
+
+        <section class="project">
+            <div class="projects">
+                
             </div>
         </section>
 

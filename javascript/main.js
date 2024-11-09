@@ -19,19 +19,25 @@ function closeMenu() {
 
 //sticky navigation
 const navbar = document.querySelector('.header');
+
 window.addEventListener('scroll', () => {
     if (window.scrollY > 200) {
         navbar.classList.add('sticky');
+        navbar.style.backgroundColor = 'rgb(240, 240, 240)';
+        navbar.style.borderBottom = 'none'
     } else {
         navbar.classList.remove('sticky');
+        navbar.style.backgroundColor = 'transparent'; 
+        navbar.style.borderBottom = '1px solid #E2E8F0'
     }
 });
+
 
 //scroll to top btn
 const scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
 function scrollFunction() {
-    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
         scrollToTopBtn.classList.add("show");
     } else {
         scrollToTopBtn.classList.remove("show");
