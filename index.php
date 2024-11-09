@@ -4,41 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>clicks.ge</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <link rel="icon" href="./assets/logo.png">
-    <link rel="apple-touch-icon" href="">
+    <link rel="icon" href="./assets/logo.png" type="image/png">
+    <link rel="apple-touch-icon" href="./assets/logo.png">
 
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="">
-    <meta name="robots" content="">
+    <title>Clicks.ge - IT სერვისები და გადაწყვეტილებები</title>
+    <meta name="description" content="Clicks.ge გთავაზობთ პროფესიონალურ IT აუთსორსინგს, ვებგვერდების დამზადებას, SEO ოპტიმიზაციას და სხვა. გააუმჯობესეთ თქვენი ბიზნესი ჩვენი მაღალი ხარისხის ტექნოლოგიური გადაწყვეტილებებით.">
+    <meta name="keywords" content="IT აუთსორსინგი, ვებგვერდების დამზადება, SEO ოპტიმიზაცია, IT სერვისები, ქართული IT გადაწყვეტილებები">
+    <meta name="author" content="Clicks.ge">
+    <meta name="robots" content="index, follow">
 
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
-    <meta property="og:image" content="">
+    <meta property="og:title" content="Clicks.ge - IT სერვისები და გადაწყვეტილებები">
+    <meta property="og:description" content="აღმოაჩინეთ ჩვენი IT სერვისების რანგი, მათ შორის აუთსორსინგი, ვებგვერდების დამზადება და SEO ოპტიმიზაცია. დაეხმარეთ თქვენს ბიზნესს ჩვენი მაღალი ხარისხის გადაწყვეტილებებით.">
+    <meta property="og:image" content="https://clicks.ge/assets/og-image.png">
     <meta property="og:url" content="https://clicks.ge">
     <meta property="og:type" content="website">
 
-    <meta name="twitter:card" content="">
-    <meta name="twitter:title" content="">
-    <meta name="twitter:description" content="">
-    <meta name="twitter:image" content="">
-    <meta name="twitter:site" content="">
-    <meta name="twitter:creator" content="">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Clicks.ge - IT სერვისები და გადაწყვეტილებები">
+    <meta name="twitter:description" content="IT სერვისები, რომლებიც აიყვანენ თქვენს ბიზნესს მომდევნო დონეზე. შეისწავლეთ ჩვენი IT აუთსორსინგი, ვებგვერდების დამზადება და SEO ოპტიმიზაცია.">
+    <meta name="twitter:image" content="https://clicks.ge/assets/twitter-image.png">
+    <meta name="twitter:site" content="@clicksge">
+    <meta name="twitter:creator" content="@clicksge">
 
-    <link rel="canonical" href="">
-    <meta name="theme-color" content="">
-    <meta name="rating" content="">
-    <meta name="distribution" content="">
-    <meta http-equiv="X-UA-Compatible" content="">
+    <link rel="canonical" href="https://clicks.ge">
 
-    <!-- live chat -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <meta name="theme-color" content="#000000">
+
     <script src="https://static.elfsight.com/platform/platform.js" async></script>
+
 </head>
 
 <body class="">
@@ -128,6 +128,23 @@
                 <div>
                     <i class="fa-solid fa-cloud"></i>
                     <p>ვირტუალური სერვერები</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="completed-projects">
+            <div class="completed-project">
+                <div>
+                    <p>2</p>
+                    <h1>წარმატებული წელი ბაზარზე</h1>
+                </div>
+                <div>
+                    <p>37</p>
+                    <h1>შესრულებული პროექტები</h1>
+                </div>
+                <div>
+                    <p>1</p>
+                    <h1>მიმდინარე პროექტები</h1>
                 </div>
             </div>
         </section>
@@ -278,14 +295,31 @@
 
         <section class="project">
             <div class="projects">
-                
+                <div class="project-card">
+                    <img src="./assets/card1.jpg" alt="ვიდეო კამერები">
+                    <p>ვიდეო კამერები გამოიყენება უსაფრთხოების, მონიტორინგისა და ვიზუალური ჩანაწერების შესაქმნელად. თანამედროვე კამერების საშუალებით შესაძლებელია მაღალი ხარისხის გამოსახულების მიღება, რეალურ დროში მონიტორინგი და ჩანაწერების შენახვა.</p>
+                </div>
+                <div class="project-card">
+                    <img src="./assets/card2.jpg" alt="ანტივირუსი">
+                    <p>ანტივირუსი იცავს კომპიუტერულ სისტემებს ვირუსების, მავნე პროგრამების და კიბერშეტევებისგან. მისი საშუალებით ხდება სისტემის სკანირება, მავნე კოდის ამოცნობა და მათგან დაცვა, რაც უზრუნველყოფს მონაცემების უსაფრთხოებას და მოწყობილობის გამართულ მუშაობას.</p>
+                </div>
+                <div class="project-card">
+                    <img src="./assets/card3.jpg" alt="IT აუთსორსინგის უპირატესობები">
+                    <p>IT აუთსორსინგი საშუალებას იძლევა კომპანიებს თავიანთი რესურსები უფრო ეფექტურად მართონ. გარე პარტნიორებთან თანამშრომლობა უზრუნველყოფს მაღალი ხარისხის ტექნოლოგიურ მომსახურებას, აჩქარებს პროცესებს და ხარჯებს ამცირებს.</p>
+                </div>
+                <div class="project-card">
+                    <img src="./assets/card4.jpg" alt="Office 365">
+                    <p>Office 365 არის Microsoft-ის გამოწერის მომსახურება, რომელიც აერთიანებს სხვადასხვა ოფის აპლიკაციებს, როგორიცაა Word, Excel, PowerPoint, Outlook და OneDrive. ის უზრუნველყოფს ციფრულ პროდუქტებს და სერვისებს, რაც საშუალებას აძლევს მომხმარებლებს კოლაბორაციისა და სამუშაოების უფრო მოქნილად შესრულებას.</p>
+                </div>
             </div>
         </section>
 
     </main>
 
     <footer class="footer">
-        
+        <div>
+            <p>© 2024 Clicks.ge | ყველა უფლება დაცულია.</p>
+        </div>
     </footer>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
