@@ -1,0 +1,163 @@
+.navbar {
+    background: linear-gradient(to right, rgb(57, 49, 175), rgb(73, 61, 248), rgb(45, 136, 136));
+}
+
+/* about */
+.about {
+    padding: 1rem 10rem;
+    margin-top: 10rem;
+}
+
+.about h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: rgb(57, 49, 175);
+}
+
+.about p {
+    margin-top: 1.5rem;
+}
+
+.about h2 {
+    margin-top: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.about ul {
+    margin-top: 1.5rem;
+}
+
+.about-card{
+    margin-top: 5rem;
+}
+
+.about-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
+}
+
+.about-cards div{
+    background-color: rgb(57, 49, 175);
+    color: white;
+    padding: 2rem;
+}
+
+.about-cards div p{
+    font-size: 0.95rem;
+}
+
+.about-cards div{
+    transition: all 0.3s ease-in-out;
+}
+
+.about-cards div:hover{
+    transform: translate(-10px, -10px);
+}
+
+@media(max-width: 1596px){
+    .about{
+        padding: 1rem 2rem;
+    }
+}
+
+@media(max-width: 1280px){
+    .about h1{
+        font-size: 2.4rem;
+    }
+
+    .about h2{
+        font-size: 1.5rem;
+    }
+
+    .about p{
+        font-size: 1.2rem;
+    }
+
+    .about-cards div p{
+        font-size: 0.75rem;
+    }
+}
+
+@media(max-width: 1024px){
+    .about h1{
+        font-size: 2rem;
+    }
+
+    .about p{
+        font-size: 1rem;
+    }
+
+    .about h2{
+        font-size: 1.2rem;
+    }
+
+    .about-cards div p{
+        font-size: 0.7rem;
+    }
+
+    .about-cards{
+        gap: 2rem;
+    }
+
+    .about{
+        margin-top: 7rem;
+    }
+}
+
+@media(max-width: 912px){
+    .about-cards{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width: 624px){
+    .about-cards{
+        grid-template-columns: 1fr;
+    }
+
+    .about p{
+        font-size: 0.8rem;
+    }
+
+    .about{
+        margin-top: 6rem;
+    }
+}
+
+/* skills */
+.skills{
+    margin-top: 5rem;
+    padding: 1rem 10rem;
+}
+
+.skills h1{
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.skill{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
+    margin-top: 2rem;
+}
+
+.skills-category{
+    box-shadow: 0 0 20px white;
+    padding: 3rem;
+}
+
+.skills-category h2{
+    text-align: center;
+}
+
+.skills-grid{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.skill-item h3{
+    margin-top: 1rem;
+}
