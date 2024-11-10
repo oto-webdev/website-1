@@ -68,12 +68,12 @@
 }
 
 .link-btn:hover{
-    background: linear-gradient(to right, #223edd, #10199b, rgb(47, 150, 209));
+    background: linear-gradient(to right, #223edd, #1a24af, rgb(139, 14, 241));
     color: white;
 }
 
 .sticky {
-    background: linear-gradient(to right, rgb(57, 49, 175), rgb(73, 61, 248), rgb(44, 194, 194));
+    background: linear-gradient(to right, rgb(57, 49, 175), rgb(73, 61, 248), rgb(45, 136, 136));
     z-index: 999;
     transition: all 0.3s ease-in-out;
     color: white;
@@ -572,6 +572,10 @@
 .option-list .card button:hover {
     background-color: rgb(57, 49, 175);
     color: #fff;
+}
+
+.options hr{
+    margin: 2rem 10rem;
 }
 
 @media(max-width: 1024px) {
