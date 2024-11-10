@@ -93,8 +93,8 @@
                     <h2>frontend</h2>
                     <div class="skills-grid">
                         <div class="skill-item">
-                            <h3>Html</h3>
-                            <h3>CSS</h3>
+                            <h3>Html & CSS</h3>
+                            <h3>SCSS & Tailwind</h3>
                             <h3>JavaScript</h3>
                             <h3>React</h3>
                             <h3>WordPress</h3>

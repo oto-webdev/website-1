@@ -11,7 +11,6 @@
 .about h1 {
     font-size: 3.2rem;
     font-weight: 700;
-    color: rgb(57, 49, 175);
 }
 
 .about p {
@@ -38,8 +37,8 @@
 }
 
 .about-cards div{
-    background-color: rgb(57, 49, 175);
-    color: white;
+    border: 1px solid rgb(57, 49, 175);
+    color: black;
     padding: 2rem;
 }
 
@@ -160,4 +159,74 @@
 
 .skill-item h3{
     margin-top: 1rem;
+}
+
+.options{
+    margin-top: 4rem;
+}
+
+@media(max-width: 1296px){
+    .skills{
+        padding: 1rem 2rem;
+    }
+
+    .skill{
+        gap: 2rem;
+    }
+}
+
+@media(max-width: 1024px){
+    .skills h1{
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 912px){
+    .skill{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width: 676px){
+    .skill{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* service */
+.our-service{
+    padding: 1rem 10rem;
+    margin-top: 10rem;
+}
+
+.our-service div h1{
+    font-size: 3rem;
+}
+
+.our-service div div p{
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+@media(max-width: 1280px){
+    .our-service{
+        margin-top: 7rem;
+        padding: 1rem 4rem;
+    }
+}
+
+@media(max-width: 676px){
+    .our-service div h1{
+        font-size: 2rem;
+    }
+
+    .our-service div div p{
+        font-size: 0.85rem;
+    }
+}
+
+@media(max-width: 430px){
+    .our-service{
+        padding: 1rem 2rem;
+    }
 }

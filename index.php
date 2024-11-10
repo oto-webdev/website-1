@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+    <meta name="keywords" content="IT აუთსორსინგი, პროფესიონალური ვებდეველოპმენტი, SEO სერვისები ბიზნესებისთვის, ხელმისაწვდომი IT გადაწყვეტილებები, ქართული IT სერვისები, ტექნოლოგიური გადაწყვეტილებები, აიტი აუთსორსინგი">
+
     <link rel="icon" href="./assets/logo.png" type="image/png">
     <link rel="apple-touch-icon" href="./assets/logo.png">
 
-    <title>Clicks.ge - IT სერვისები და გადაწყვეტილებები</title>
+    <title>Clicks.ge - IT აუთსორსინგი</title>
     <meta name="description" content="Clicks.ge გთავაზობთ პროფესიონალურ IT აუთსორსინგს, ვებგვერდების დამზადებას, SEO ოპტიმიზაციას და სხვა. გააუმჯობესეთ თქვენი ბიზნესი ჩვენი მაღალი ხარისხის ტექნოლოგიური გადაწყვეტილებებით.">
     <meta name="keywords" content="IT აუთსორსინგი, ვებგვერდების დამზადება, SEO ოპტიმიზაცია, IT სერვისები, ქართული IT გადაწყვეტილებები">
     <meta name="author" content="Clicks.ge">
