@@ -29,3 +29,32 @@ a {
 textarea{
     resize: none;
 }
+
+/* Apply underline effect only to non-button links */
+.nav-link:not(.link-btn) {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+    padding-bottom: 0.2rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:not(.link-btn)::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.3s ease;
+}
+
+.nav-link:not(.link-btn):hover {
+    color: #fff;
+}
+
+.nav-link:not(.link-btn):hover::after {
+    width: 100%;
+}
