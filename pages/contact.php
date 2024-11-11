@@ -2,29 +2,29 @@
 <html lang="ka">
 
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <meta name="keywords" content="IT აუთსორსინგი, პროფესიონალური ვებდეველოპმენტი, SEO სერვისები ბიზნესებისთვის, ხელმისაწვდომი IT გადაწყვეტილებები, ქართული IT სერვისები, ტექნოლოგიური გადაწყვეტილებები, აიტი აუთსორსინგი">
+    <meta name="keywords" content="contact clicks.ge, IT outsourcing contact, contact professional web development, business SEO services contact, affordable IT solutions contact, Georgian IT services, contact technology solutions">
+    <meta name="description" content="Contact Clicks.ge for professional IT outsourcing, web development, SEO optimization, and more. Enhance your business with our high-quality technology solutions.">
+    <meta name="author" content="Clicks.ge">
+    <meta name="robots" content="index, follow">
 
     <link rel="icon" href="./assets/logo.png" type="image/png">
     <link rel="apple-touch-icon" href="./assets/logo.png">
 
-    <title>Clicks.ge - IT აუთსორსინგი</title>
-    <meta name="description" content="Clicks.ge გთავაზობთ პროფესიონალურ IT აუთსორსინგს, ვებგვერდების დამზადებას, SEO ოპტიმიზაციას და სხვა. გააუმჯობესეთ თქვენი ბიზნესი ჩვენი მაღალი ხარისხის ტექნოლოგიური გადაწყვეტილებებით.">
-    <meta name="author" content="Clicks.ge">
-    <meta name="robots" content="index, follow">
+    <title>Clicks.ge - კონტაქტი</title>
 
-    <meta property="og:title" content="Clicks.ge - IT სერვისები და გადაწყვეტილებები">
-    <meta property="og:description" content="აღმოაჩინეთ ჩვენი IT სერვისების რანგი, მათ შორის აუთსორსინგი, ვებგვერდების დამზადება და SEO ოპტიმიზაცია. დაეხმარეთ თქვენს ბიზნესს ჩვენი მაღალი ხარისხის გადაწყვეტილებებით.">
+    <meta property="og:title" content="Contact Clicks.ge - IT Services and Solutions">
+    <meta property="og:description" content="Get in touch with Clicks.ge for expert IT outsourcing, web development, and SEO optimization. Help your business grow with our high-quality solutions.">
     <meta property="og:image" content="https://clicks.ge/assets/og-image.png">
-    <meta property="og:url" content="https://clicks.ge">
+    <meta property="og:url" content="https://clicks.ge/contact">
     <meta property="og:type" content="website">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Clicks.ge - IT სერვისები და გადაწყვეტილებები">
-    <meta name="twitter:description" content="IT სერვისები, რომლებიც აიყვანენ თქვენს ბიზნესს მომდევნო დონეზე. შეისწავლეთ ჩვენი IT აუთსორსინგი, ვებგვერდების დამზადება და SEO ოპტიმიზაცია.">
+    <meta name="twitter:title" content="Contact Clicks.ge - IT Services and Solutions">
+    <meta name="twitter:description" content="IT services that take your business to the next level. Discover our IT outsourcing, web development, and SEO optimization solutions.">
     <meta name="twitter:image" content="https://clicks.ge/assets/twitter-image.png">
     <meta name="twitter:site" content="@clicksge">
     <meta name="twitter:creator" content="@clicksge">
