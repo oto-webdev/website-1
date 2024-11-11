@@ -67,11 +67,12 @@
             <h1>Contact Us</h1>
             <div class="contacts">
                 <div class="left">
-                    <form action="#" method="POST">
-                        <input type="text" name="firstname" placeholder="First Name">
-                        <input type="text" name="lastname" placeholder="Last Name">
-                        <input type="email" name="email" placeholder="Email">
-                        <textarea name="text" id="text" placeholder="Message"></textarea>
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="apikey" value="cdc549e1-1807-4837-abae-84a3fd59b906">
+                        <input type="text" name="firstname" placeholder="First Name" required>
+                        <input type="text" name="lastname" placeholder="Last Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <textarea name="text" id="text" placeholder="Message" required></textarea>
                         <button type="submit">Send</button>
                     </form>
                 </div>

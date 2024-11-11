@@ -67,7 +67,8 @@
             <h1>დაგვეკონტაქტე</h1>
             <div class="contacts">
                 <div class="left">
-                    <form action="#" method="POST">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="apikey" value="cdc549e1-1807-4837-abae-84a3fd59b906">
                         <input type="text" name="firstname" placeholder="სახელი">
                         <input type="text" name="lastname" placeholder="გვარი">
                         <input type="email" name="email" placeholder="მეილი">
