@@ -97,7 +97,7 @@
                             <h3>SCSS & Tailwind</h3>
                             <h3>JavaScript</h3>
                             <h3>React</h3>
-                            <h3>WordPress</h3>
+                            <h3>Vue</h3>
                         </div>
                     </div>
                 </div>

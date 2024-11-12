@@ -90,20 +90,20 @@
 
             <div class="skill">
                 <div class="skills-category">
-                    <h2>frontend</h2>
+                    <h2>Frontend</h2>
                     <div class="skills-grid">
                         <div class="skill-item">
                             <h3>Html & CSS</h3>
                             <h3>SCSS & Tailwind</h3>
                             <h3>JavaScript</h3>
                             <h3>React</h3>
-                            <h3>WordPress</h3>
+                            <h3>Vue</h3>
                         </div>
                     </div>
                 </div>
 
                 <div class="skills-category">
-                    <h2>backend</h2>
+                    <h2>Backend</h2>
                     <div class="skills-grid">
                         <div class="skill-item">
                             <h3>PHP</h3>
