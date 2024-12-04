@@ -82,8 +82,14 @@
             <?php include "../components-en/calculator.html" ?>
         </section>
 
+        <!--
         <section class="project">
             <?php include "../components-en/project.html" ?>
+        </section>
+        -->
+
+        <section class="partners">
+            <?php include "../components-en/partner.html" ?>
         </section>
 
     </main>

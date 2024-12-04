@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ka">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -82,8 +81,14 @@
             <?php include "./components/calculator.html" ?>
         </section>
 
+        <!--
         <section class="project">
             <?php include "./components/project.html" ?>
+        </section>
+        -->
+
+        <section class="partner">
+            <?php include "./components/partners.html" ?>
         </section>
 
     </main>
@@ -118,5 +123,4 @@
     </script>
     <script src="javascript/main.js"></script>
 </body>
-
 </html>
