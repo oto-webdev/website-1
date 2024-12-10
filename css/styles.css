@@ -45,11 +45,11 @@
 }
 
 .nav-item {
-    margin-left: 3rem;
+    margin-left: 2.4rem;
 }
 
 .nav-link {
-    font-size: 0.85rem;
+    font-size: 1rem;
     font-weight: 400;
     color: #fff;
 }
@@ -86,7 +86,7 @@
     }
 
     .nav-link {
-        font-size: 0.75rem;
+        font-size: 0.9rem;
     }
 
     .link-btn {
@@ -94,7 +94,7 @@
     }
 
     .nav-item {
-        margin-left: 1.4rem;
+        margin-left: 1.2rem;
     }
 }
 

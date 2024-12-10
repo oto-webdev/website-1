@@ -66,9 +66,9 @@
                 ასევე მოეწყო სსტვ ოთახი და აღიჭურვა ოფისი კამერებით. </h2>
 
                 <div class="main-img">
-                    <img src="../photos/bsg/1.jpg" alt="1">
-                    <img src="../photos/bsg/2.jpg" alt="2">
-                    <img src="../photos/bsg/3.jpg" alt="3">
+                    <img class="img" src="../photos/bsg/1.jpg" alt="1">
+                    <img class="img" src="../photos/bsg/2.jpg" alt="2">
+                    <img class="img" src="../photos/bsg/3.jpg" alt="3">
                 </div>
             </div>
 

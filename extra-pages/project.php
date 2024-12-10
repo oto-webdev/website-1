@@ -32,7 +32,7 @@
 
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="../pages/styles.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
@@ -56,15 +56,46 @@
     <button id="scrollToTopBtn">↑</button>
 
     <header class="header">
-        <?php include '../components/navbar.html' ?>
+        <?php include '../components-en/navbar.html' ?>
     </header>
 
-    <main>
+    <main class="main-projects">
+        <div class="project-container">
+            <div class="project-bsg">
+                <h2>Click.ge successfully completed the setup of a UNIFI brand Wi-Fi system in the offices of "Black Sea Group," along with the setup of a CCTV room and equipping the office with cameras.</h2>
 
+                <div class="main-img">
+                    <img class="img" src="../photos/bsg/1.jpg" alt="1">
+                    <img class="img" src="../photos/bsg/2.jpg" alt="2">
+                    <img class="img" src="../photos/bsg/3.jpg" alt="3">
+                </div>
+            </div>
+
+            <div class="project-production">
+                <h2>Our team successfully completed the setup of internet connectivity across the entire premises of "Black Sea Production" and installed cameras.</h2>
+
+                <div class="main-img">
+                    <img src="../photos/production/1.jpg" alt="1">
+                    <img src="../photos/production/2.jpg" alt="2">
+                    <img src="../photos/production/3.jpg" alt="3">
+                </div>
+            </div>
+
+            <div class="project-gomi">
+                <h2>At the base of "Gomi Concrete Material Company," we successfully completed the installation of internet connectivity across the entire premises using both optical cables and radio antennas, as well as setting up cameras for comprehensive site monitoring.</h2>
+
+                <div class="main-img">
+                    <img src="../photos/gomi/1.jpg" alt="1">
+                    <img src="../photos/gomi/2.jpg" alt="2">
+                    <img src="../photos/gomi/3.jpg" alt="3">
+                </div>
+            </div>
+        </div>
     </main>
 
+
     <footer class="footer">
-        <?php include "../components/footer.html" ?>
+        <?php include "../components-en/footer.html" ?>
     </footer>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
