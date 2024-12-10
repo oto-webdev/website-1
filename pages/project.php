@@ -59,8 +59,41 @@
         <?php include '../components/navbar.html' ?>
     </header>
 
-    <main>
+    <main class="main-projects">
+        <div class="project-container">
+            <div class="project-bsg">
+                <h2>კომპანია ქლიქ.ჯი_მ წარმატებით განახორციელა კომპანია "ბლექ სი გრუპი"_ს ოფისში UNIFI ფირმის ვაიფაი სისტემით მოწყობა, 
+                ასევე მოეწყო სსტვ ოთახი და აღიჭურვა ოფისი კამერებით. </h2>
 
+                <div class="main-img">
+                    <img src="../photos/bsg/1.jpg" alt="1">
+                    <img src="../photos/bsg/2.jpg" alt="2">
+                    <img src="../photos/bsg/3.jpg" alt="3">
+                </div>
+            </div>
+
+            <div class="project-production">
+            <h2>ჩვენმა გუნდმა წარმატებით დაასრულა კომპანია "ბლექ სი პროდაშენი"_ის სრულ ტერიტორიაზე ინტერნეტის მოწყობა 
+            და კამერების ინსტალაცია. </h2>
+
+                <div class="main-img">
+                    <img src="../photos/production/1.jpg" alt="1">
+                    <img src="../photos/production/2.jpg" alt="2">
+                    <img src="../photos/production/3.jpg" alt="3">
+                </div>
+            </div>
+
+            <div class="project-gomi">
+            <h2>კომპანია "გომი ქონქრით მატერიალ კომპანი"_ს ბაზაზე წარმატებით განხორციელდა ინტერნეტის მოწყობა სრულ ტერიტორიაზე, 
+            როგორც ოპტიკური კაბელით, ასევე რადიო ანტენებით და მოეწყო კამერები სრული ბაზის მონიტორინგისთვის. </h2>
+
+                <div class="main-img">
+                    <img src="../photos/gomi/1.jpg" alt="1">
+                    <img src="../photos/gomi/2.jpg" alt="2">
+                    <img src="../photos/gomi/3.jpg" alt="3">
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer class="footer">

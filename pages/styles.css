@@ -348,3 +348,12 @@
     height: 120px;
   }
 }
+
+.main-projects {
+  margin-top: 10rem;
+  padding: 1rem 10rem;
+}
+
+.project-production, .project-gomi {
+  margin-top: 5rem;
+}

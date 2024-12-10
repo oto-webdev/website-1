@@ -49,13 +49,13 @@
 }
 
 .nav-link {
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 0.85rem;
+    font-weight: 400;
     color: #fff;
 }
 
 .nav-logo {
-    font-size: 2.4rem;
+    font-size: 2.1rem;
     font-weight: 500;
     color: #fff;
 }
@@ -63,7 +63,7 @@
 .link-btn {
     background-color: white;
     color: black;
-    padding: 1rem 2.4rem;
+    padding: 1rem 2.1rem;
     transition: all 0.3s ease-in-out;
 }
 
@@ -82,15 +82,15 @@
 
 @media(max-width:1024px) {
     .nav-logo {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .nav-link {
-        font-size: 0.9rem;
+        font-size: 0.75rem;
     }
 
     .link-btn {
-        padding: 0.8rem 2rem;
+        padding: 0.7rem 1.6rem;
     }
 
     .nav-item {
@@ -104,7 +104,7 @@
     }
 }
 
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 991px) {
     .navbar {
         background-color: rgb(57, 49, 175);
     }
