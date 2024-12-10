@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ka">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,7 +23,7 @@
     <meta property="og:url" content="https://clicks.ge">
     <meta property="og:type" content="website">
 
-    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:card" content="https://clicks.ge/assets/og-image.png">
     <meta name="twitter:title" content="Clicks.ge - IT სერვისები და გადაწყვეტილებები">
     <meta name="twitter:description" content="IT სერვისები, რომლებიც აიყვანენ თქვენს ბიზნესს მომდევნო დონეზე. შეისწავლეთ ჩვენი IT აუთსორსინგი, ვებგვერდების დამზადება და SEO ოპტიმიზაცია.">
     <meta name="twitter:image" content="https://clicks.ge/assets/twitter-image.png">
@@ -123,4 +124,5 @@
     </script>
     <script src="javascript/main.js"></script>
 </body>
+
 </html>
